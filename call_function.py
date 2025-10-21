@@ -4,7 +4,7 @@ from functions.write_file import write_file
 from functions.run_python_file import run_python_file
 from google.genai import types
 
-working_directory = 'calculator'
+working_directory = 'flappybird'
 
 def call_function(function_call_part, verbose=False):
     if verbose:
