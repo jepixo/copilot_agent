@@ -73,7 +73,6 @@ copilot_agent/
 Add a new tool under `functions/`:
 
 ```python
-@tool("weather")
 def get_weather(city: str):
     """Get live weather for a city."""
     return f"The weather in {city} is sunny ☀️"
